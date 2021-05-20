@@ -77,7 +77,8 @@ body{
     flex-direction: row;
     margin-bottom: 18px;
     align-items: center;
-    border: 0px solid green;
+    border: 0px solid rgb(0, 128, 49);
+    width: 60%;
 }
 
 .select-input-fields{
@@ -86,6 +87,7 @@ body{
     margin-bottom: 18px;
     align-items: center;
     border: 0px solid green;
+    width:60%
 }
 .label{
     min-width: 140px;
