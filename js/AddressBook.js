@@ -9,7 +9,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
     fullname.addEventListener('input', function () {
         if (fullname.value.length == 0) {
             textError.textContent = "";
-            return
+            return;
         }
         try {
             (new Contact()).fullName = fullname.value;
@@ -29,7 +29,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
     phoneNo.addEventListener('input', function () {
         if (phoneNo.value.length == 0) {
             phoneError.textContent = "";
-            return
+            return;
         }
         try {
             (new Contact()).phoneNumber = phoneNo.value;
@@ -47,7 +47,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
     address.addEventListener('input', function () {
         if (address.value.length == 0) {
             addressError.textContent = "";
-            return
+            return;
         }
         try {
             (new Contact()).address = address.value;
@@ -56,7 +56,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
             addressError.textContent = e;
         }
     });
-    
+
 }); 
 
 
