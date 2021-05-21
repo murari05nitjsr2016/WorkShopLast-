@@ -171,3 +171,10 @@ select {
 .form{
     margin-left: 25%; 
 }
+
+error-output {
+    margin-left: 10px;
+    font-size: 15px;
+    font-style: bold;
+    color: red;
+} 
